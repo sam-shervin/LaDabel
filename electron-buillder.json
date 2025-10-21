@@ -1,0 +1,15 @@
+{
+  "appId": "com.tzedeq.ladabel",
+  "files": ["dist-ui", "dist-electron"],
+  "icon":"./icon.png",
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "AppImage",
+    "category": "Utility"
+  },
+  "win": {
+    "target": ["portable", "msi"]
+  }
+}
